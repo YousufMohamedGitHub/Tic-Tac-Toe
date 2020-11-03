@@ -67,46 +67,55 @@ void Input() {
         case '1':
             if (!(((matrix[0][0]) == ('X')) || ((matrix[0][0]) == ('O')))) {
             matrix[0][0] = Player;
+                ChangePlayer();
             }
             break;
         case '2':
             if (!(((matrix[0][1]) == ('X')) || ((matrix[0][1]) == ('O')))) {
             matrix[0][1] = Player;
+                ChangePlayer();
             }
             break;
         case '3':
             if (!(((matrix[0][2]) == ('X')) || ((matrix[0][2]) == ('O')))) {
             matrix[0][2] = Player;
+                ChangePlayer();
             }
             break;
         case '4':
             if (!(((matrix[1][0]) == ('X')) || ((matrix[1][0]) == ('O')))) {
             matrix[1][0] = Player;
+                ChangePlayer();
             }
             break;
         case '5':
             if (!(((matrix[1][1]) == ('X')) || ((matrix[1][1]) == ('O')))) {
             matrix[1][1] = Player;
+                ChangePlayer();
             }
             break;
         case '6':
             if (!(((matrix[1][2]) == ('X')) || ((matrix[1][2]) == ('O')))) {
             matrix[1][2] = Player;
+                ChangePlayer();
             }
             break;
         case '7':
             if (!(((matrix[2][0]) == ('X')) || ((matrix[2][0]) == ('O')))) {
             matrix[2][0] = Player;
+                ChangePlayer();
             }
             break;
         case '8':
             if (!(((matrix[2][1]) == ('X')) || ((matrix[2][1]) == ('O')))) {
             matrix[2][1] = Player;
+                ChangePlayer();
             }
             break;
         case '9':
             if (!(((matrix[2][2]) == ('X')) || ((matrix[2][2]) == ('O')))) {
             matrix[2][2] = Player;
+                ChangePlayer();
             }
             break;
             
@@ -116,7 +125,7 @@ void Input() {
             break;
     }
         WinCheck();
-        ChangePlayer();
+        
         
     }
     
