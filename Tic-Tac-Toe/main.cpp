@@ -153,10 +153,10 @@ void ChangePlayer() {
 
 void WinCheck() {
     int PlayerNumber;
-    if (Player == 'X') {
+    if (Player == 'O') {
         PlayerNumber = 1;
     }
-    if (Player == 'O') {
+    if (Player == 'X') {
         PlayerNumber = 2;
     }
     
